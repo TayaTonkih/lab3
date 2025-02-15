@@ -128,7 +128,6 @@ class VehicleStorage {
         return this.vehicles;
     }
 }
-// Пример использования
 const owner1 = new Owner("Иванов", "Иван", "Иванович", new Date(1990, 1, 1), DocumentType.DriverLicense, 1234, 567890);
 const car1 = new Car("Toyota", "RAV4", 2021, "1HGBH41JXMN109186", "A123BC", owner1, CarcaseType.SUV, ClassCar.Luxury);
 const bike1 = new Motorbike("Yamaha", "YZF-R3", 2020, "2HGBH41JXMN109187", "B456CD", owner1, "Спортивная", true);
